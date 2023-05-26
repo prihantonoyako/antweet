@@ -1,0 +1,8 @@
+django
+djangorestframework
+
+pandas
+nltk
+deep-translator
+
+django-debug-toolbar
