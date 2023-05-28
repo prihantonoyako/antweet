@@ -6,3 +6,4 @@ nltk
 deep-translator
 
 django-debug-toolbar
+spacy
