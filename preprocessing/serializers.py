@@ -9,5 +9,10 @@ class PreProcessSerializer(serializers.Serializer):
     # user_created_at = serializers.CharField()
 
 class AdjustmentSerializer(serializers.Serializer):
-    id = serializers.IntegerField(read_only=True)
+    # id = serializers.IntegerField(read_only=True)
+    text = serializers.CharField()
+    
+class ClassifierSerializer(serializers.Serializer):
+    label = serializers.CharField()
+    
     
